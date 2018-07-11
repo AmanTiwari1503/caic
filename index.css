@@ -278,8 +278,8 @@ a { text-decoration: none; color: black;}
 }
 
 #menu-container .menu-list .menu-submenu {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #menu-container .menu-list {
     padding-left: 0;
