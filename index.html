@@ -15,6 +15,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/popup.css" rel="stylesheet">
     <style type="text/css">
       @media (min-width: 800px) and (max-width: 850px) {
               .navbar:not(.top-nav-collapse) {
@@ -49,20 +50,35 @@
             <a class="menu-link" href="./index.html">HOME</a>
           </li>
           <!-- menu-submenu accordon-content-->
-          <li id="nav2" style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;border-top: 1px solid #dbdcd2;">
-            <a class="menu-link" href="#">TRYST</a>
-          </li>
-          <!-- menu-submenu accordon-content-->
           <li id="nav3" class="toggle accordion-toggle">
             <span class="icon-plus"></span>
             <a class="menu-link" href="#">Academic Resources</a>
           </li>
           <!-- accordion-toggle -->
           <ul class="menu-submenu accordion-content">
-            <li><a class="head" href="http://www.iitd.ac.in/content/curriculum-info" target="_blank">Courses of Study</a></li>
-            <li><a class="head" href="http://www.iitd.ac.in/content/curriculum-info" target="_blank">Prospectus</a></li>
+            <li><a class="head" href="http://www.iitd.ac.in/content/curriculum-info" target="_blank">Courses of Study</a>
+              <a class="info" style="float: right;padding-right: 20px;" href="#popup1"><i class="fas fa-info-circle"></i></a></li>
+            <div id="popup1" class="overlay">
+              <div class="popup">
+                <h2>Here i am</h2>
+                <a class="close info" href="#">&times;</a>
+                <div class="content">
+                  I'm courses of study
+                </div>
+              </div>
+            </div>
+            <li><a class="head" href="http://www.iitd.ac.in/content/curriculum-info" target="_blank">Prospectus</a>
+              <a  class="info" style="float: right;padding-right: 20px;" href="#popup2"><i class="fas fa-info-circle"></i></a></li>
+            <div id="popup2" class="overlay">
+              <div class="popup">
+                <h2>Here i am</h2>
+                <a class="close info" href="#">&times;</a>
+                <div class="content">
+                  I'm prospectus
+                </div>
+              </div>
+            </div>
             <li><a class="head" href="http://nptel.ac.in" target="_blank">NPTEL Video Lectures</a></li>
-            <li><a class="head" href="#">FAQ's</a></li>
           </ul>
           <li id="nav4" class="toggle accordion-toggle">
             <span class="icon-plus"></span>
@@ -75,9 +91,8 @@
             <li><a class="head" href="http://tes.iitd.ac.in" target="_blank">Textile Engineering Society</a></li>
             <li><a class="head" href="http://ees.iitd.ac.in" target="_blank">Electrical Engineering Society</a></li>
             <li><a class="head" href="http://isme.iitd.ac.in" target="_blank">Mechanical Engineering Society</a></li>
-            <li><a class="head" href="http://www.cse.iitd.ernet.in" target="_blank">Computer Science Engineering Society</a></li>
-            <li><a class="head" href="http://http://maths.iitd.ac.in/beta/?page_id=606" target="_blank">Mathematics Society</a></li>
-            <li><a class="head" href="http://physics.iitd.ac.in/content/physics-society" target="_blank">Physics Society</a></li>
+            <li><a class="head" href="http://www.cse.iitd.ac.in/aces-acm/" target="_blank">ACES ACM</a></li>
+            <li><a class="head" href="http://maths.iitd.ac.in/beta/?page_id=606" target="_blank">Maths Society</a></li>
           </ul>
           <li id="nav5" class="toggle accordion-toggle">
             <span class="icon-plus"></span>
@@ -86,12 +101,11 @@
           <!-- accordion-toggle -->
           <ul class="menu-submenu accordion-content">
             <li><a class="head" href="http://roboticsclub.iitd.ac.in/index.php" target="_blank">Robotics Club</a></li>
-            <li><a class="head" href="http://automobileclub.iitd.ac.in/" target="_blank">Axlr8r</a></li>
+            <li><a class="head" href="http://automobileclub.iitd.ac.in/" target="_blank">Formula Society for Automative Racing (Axlr8r)</a></li>
             <li><a class="head" href="http://technocracy.iitd.ac.in/economicsclub/" target="_blank">Economics Club</a></li>
-            <li><a class="head" href="https://www.facebook.com/PhysicsAndAstronomyIITD/" target="_blank">Astronomy Club</a></li>
+            <li><a class="head" href="https://www.facebook.com/PhysicsAndAstronomyIITD/" target="_blank">Physics and Astronomy Club</a></li>
             <li><a class="head" href="https://www.facebook.com/aeroclubiitd/" target="_blank">Aeromodelling Club</a></li>
             <li><a class="head" href="http://2017.igem.org/Team:IIT_Delhi" target="_blank">iGEM</a></li>
-            <li><a class="head" href="http://www.edc-iitd.org/" target="_blank">Entrepreneurship Development Cell</a></li>
             <li><a class="head" href="#">New Club Form</a></li>
           </ul>
           <li id="nav6" class="toggle accordion-toggle">
@@ -100,24 +114,19 @@
           </li>
           <!-- accordion-toggle -->
           <ul class="menu-submenu accordion-content">
-            <li><a class="head" href="#">General Body Meetings</a></li>
-            <li><a class="head" href="#">U.G Meetings</a></li>
-            <li><a class="head" href="#">P.G Meetings</a></li>
+            <li><a class="head" href="#">CAIC Meetings</a></li>
             <li><a class="head" href="#">Class Committee Meetings</a></li>
           </ul>
-
+          <!-- menu-submenu accordon-content-->
+          <li id="nav2" style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;border-top: 1px solid #dbdcd2;">
+            <a class="menu-link" href="https://www.facebook.com/IITD.Tryst/" target="_blank">TRYST</a>
+          </li>
           <li id="nav7" style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;border-top: 1px solid #dbdcd2;">
-            <a class="menu-link" href="http://caic.iitd.ac.in/usefullink.html" target="_blank">USEFUL LINKS</a>
+            <a class="menu-link" href="#" target="_blank">TEAM</a>
           </li>
-          <li id="nav8" class="toggle accordion-toggle">
-            <span class="icon-plus"></span>
-            <a class="menu-link" href="#">Contact Us</a>
+          <li id="nav8" style="padding-left: 20px;padding-top: 10px;padding-bottom: 10px;border-top: 1px solid #dbdcd2;">
+            <a class="menu-link" href="#" target="_blank">P.G RESEARCH PORTAL</a>
           </li>
-          <!-- accordion-toggle -->
-          <ul class="menu-submenu accordion-content">
-            <li><a class="head" href="#">Present Team</a></li>
-            <li><a class="head" href="#">Past General Secretaries</a></li>
-          </ul>
           <!-- menu-submenu accordon-content-->
         </ul>
         <!-- menu-list accordion-->
@@ -154,7 +163,7 @@
                 <strong>CAIC</strong>
               </h1>
               <p class="d-none d-md-block white-text" style="font-size:25px;">
-                <strong>CO-CURRICULAR AND ACADEMIC INTERACTION COUNCIL</strong>
+                <strong>CO-CURRICULAR &amp; ACADEMIC INTERACTION COUNCIL</strong>
               </p>
             </div>
             <!-- Content -->
@@ -179,7 +188,7 @@
                 <strong>CAIC</strong>
               </h1>
               <p class="d-none d-md-block white-text" style="font-size:25px">
-                <strong>CO-CURRICULAR AND ACADEMIC INTERACTION COUNCIL</strong>
+                <strong>CO-CURRICULAR &amp; ACADEMIC INTERACTION COUNCIL</strong>
               </p>
             </div>
             <!-- Content -->
@@ -204,7 +213,7 @@
                 <strong>CAIC</strong>
               </h1>
               <p class="d-none d-md-block white-text" style="font-size:25px">
-                <strong>CO-CURRICULAR AND ACADEMIC INTERACTION COUNCIL</strong>
+                <strong>CO-CURRICULAR &amp; ACADEMIC INTERACTION COUNCIL</strong>
               </p>
             </div>
             <!-- Content -->
@@ -524,12 +533,88 @@
     </div>
   </main>
   <!--Main layout-->
-
-  <div class="container-fluid text-center" style="background-color: black;height: 100px;">
-    <a href="https://www.facebook.com/caiciitd/?hc_ref=ARTMAmqHpvlnIDsppeSsSlpjYeFRvHm5_CiTc6dTdZ4BcPSZJ6mcJz6xJUfZ0-zaApw&fref=nf" target="_blank"><i class="fab fa-facebook" style="float:left;color: blue;font-size: 2.3rem;padding-top: 35px;padding-left:5%;"></i></a>
-    <a href="mailto:caicgsec@iitd.ac.in"><i class="fas fa-envelope" style="float:left;color: red;font-size: 2.3rem;padding-top: 37px;padding-left:20px;"></i></a>
-    <h5 class="text-white" style="padding-top:20px;float: right;">Website created by <a href="https://www.facebook.com/profile.php?id=100020226376067" target="_blank"><br><span style="font-size: 1.9rem;color: #09afdf">Aman Tiwari</span></a></h5>
+  <div>
+  <div class="container-fluid" style="width: 100%;background-color: black;">
+    <div class="row text-center text-white" style="padding-top: 25px;">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+            <h5><strong>Useful Links</strong></h5>
+            <hr style="border-color: inherit;width: 125px;margin-top: 10px;">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <p><a href="http://academics.iitd.ac.in/" target="_blank">Dean of Academics</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://roombooking.iitd.ac.in/index" target="_blank">Room Booking Website</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://library.iitd.ac.in/" target="_blank">Central Library</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://timetable.iitd.ac.in/" target="_blank">Time Table</a> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <p><a href="http://infra.iitd.ac.in/" target="_blank">Dean of Infrastructure</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://dos.iitd.ac.in/" target="_blank">Dean of Student Affairs</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="https://academics1.iitd.ac.in/Academics/" target="_blank">Academics Website</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://bsw.iitd.ac.in" target="_blank">BSW IITD Website</a> </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <p><a href="http://ird.iitd.ac.in/" target="_blank">Dean of Research and Development</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="https://internal.iitd.ac.in/" target="_blank">IIT Delhi Internal Website</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://tnp.iitd.ac.in/" target="_blank">TnP:Training and Placement Cell</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="https://internal.iitd.ernet.in/?q=content/ug-notices" target="_blank">Online UG Notice Board</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <p><a href="http://www.iitd.ac.in/admn/content/alumni-affairs-and-international-programmes" target="_blank">Dean of Alumni Affairs and International Programs</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="https://infrasla.iitd.ac.in/netserv/" target="_blank">SLA for Networking Services (LAN Complaints)</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://etsc.iitd.ac.in/" target="_blank">ETSC: Educational Technology Services Center</a> </p>
+          </div>
+          <div class="col-md-3">
+            <p><a href="http://www.iitd.ac.in/content/anti-sexual-harassment-policy" target="_blank">Internal Complants Committee (ICC) = Anti Sexual Harassment Policy</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+    <hr style="border-color: 2px solid white; margin-top: 0px;margin-bottom: 0px;">
+  <div class="container-fluid text-center" style="background-color: black;padding-bottom: 10px;">
+    <div class="row">
+      <div class="col-md-6 text-center">
+    <a href="https://www.facebook.com/caiciitd/?hc_ref=ARTMAmqHpvlnIDsppeSsSlpjYeFRvHm5_CiTc6dTdZ4BcPSZJ6mcJz6xJUfZ0-zaApw&fref=nf" target="_blank"><i class="fab fa-facebook" style="color: blue;font-size: 2.3rem;margin-top: 35px;"></i></a>
+    <a href="mailto:caicgsec@iitd.ac.in"><i class="fas fa-envelope" style="color: red;font-size: 2.3rem;margin-top: 37px;margin-left:20px;"></i></a>
+      </div>
+      <div class="col-md-6 text-center">
+        <h5 class="text-white" style="padding-top:20px;">Website created by <a href="https://www.facebook.com/profile.php?id=100020226376067" target="_blank"><br><span style="font-size: 1.9rem;color: #09afdf">Aman Tiwari</span></a></h5>
+      </div>
+      </div>
+    </div>
+</div>
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
